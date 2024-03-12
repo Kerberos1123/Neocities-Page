@@ -1,0 +1,57 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:url(files/zertxtr.gif);
+}
+
+/*Logo---------------------------------------------------------------------------------------------------*/
+
+.logo-container {
+  text-align: center; /* Center the logo horizontally */
+}
+
+.logo {
+  background: url(files/a-starhead.gif);
+  width: 350px;
+  height: 140px;
+  background-size: auto;
+  margin: 0 auto; /* Center the logo using auto margins */
+}
+
+/*Navigation Bar---------------------------------------------------------------------------------------*/
+
+#nav-bar{
+
+  padding: 7px; /* Add some padding for better aesthetics */
+
+  text-align: center; /* Center the text within the nav-bar */
+}
+ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make the list items display in a row */
+ 
+  display: inline-block; /* Make the list items display as a block within the centered container */
+
+}
+li {
+  margin-right: 15px; /* Adjust spacing between menu items */
+
+  display: inline-block; /* Display list items as inline blocks */
+}
+
+.nav-link {
+  display: flex; /* Allow flex properties for alignment */
+  align-items: center; /* Center the image and text vertically */
+}
+
+.nav-link img {
+  margin-right: 5px; /* Adjust spacing between image and text */
+  width: auto; /* Maintain aspect ratio */
+}
