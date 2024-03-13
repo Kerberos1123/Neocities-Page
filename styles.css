@@ -9,6 +9,11 @@ body {
   background-image:url(files/zertxtr.gif);
 }
 
+body, html {
+  height: 100%;
+}
+
+
 /*Logo---------------------------------------------------------------------------------------------------*/
 
 .logo-container {
@@ -31,6 +36,7 @@ body {
 
   text-align: center; /* Center the text within the nav-bar */
 }
+
 ul {
   list-style-type: none; /* Remove default list styles */
   margin: 0;
@@ -40,6 +46,7 @@ ul {
   display: inline-block; /* Make the list items display as a block within the centered container */
 
 }
+
 li {
   margin-right: 15px; /* Adjust spacing between menu items */
 
@@ -55,3 +62,45 @@ li {
   margin-right: 5px; /* Adjust spacing between image and text */
   width: auto; /* Maintain aspect ratio */
 }
+
+/*Container---------------------------------------------------------------------------------------------*/
+
+.container{
+  display: flex;
+  min-height: calc(80vh - 80px); /* Adjust the height based on your footer's height */
+}
+#center-container {
+  flex-grow: 1;
+  background-color: brown;
+}
+
+#left-container,
+#right-container {
+
+  flex-basis: 15%; /* Adjust the initial width as a percentage */
+  margin: 0 4%; /* Adjust the initial margin */
+  background-color: aqua;
+}
+
+#left-container {
+  
+}
+
+#right-container {
+  
+}
+
+.sidebar {
+  height: 40px;
+}
+
+/*Footer---------------------------------------------------------------------------------------------*/
+
+.footer {
+  height: 50px; 
+  background-color: lightgray;
+  text-align: center;
+  line-height: 50px;
+  margin: 15px;
+}
+
