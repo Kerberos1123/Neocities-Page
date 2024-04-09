@@ -67,40 +67,45 @@ li {
 
 .container{
   display: flex;
-  min-height: calc(80vh - 80px); /* Adjust the height based on your footer's height */
+  align-items: center; /* Center vertically */
 }
 #center-container {
   flex-grow: 1;
   background-color: brown;
+  height: 660px;
 }
 
 #left-container,
 #right-container {
+ 
+  flex-basis: 200px; /* Adjust the initial width as a percentage */
+  height: 600px; /* Set the height to 600px */
 
-  flex-basis: 15%; /* Adjust the initial width as a percentage */
   margin: 0 4%; /* Adjust the initial margin */
-  background-color: aqua;
+  background: url(files/ShowLetter.gif);
+  flex
+  
 }
 
 #left-container {
-  
 }
 
 #right-container {
   
 }
 
+/*Sidebars for each side container---------------------------------------------------------------------------------------------*/
 .sidebar {
-  height: 40px;
 }
 
 /*Footer---------------------------------------------------------------------------------------------*/
 
 .footer {
   height: 50px; 
+  width: 500px;
   background-color: lightgray;
-  text-align: center;
   line-height: 50px;
-  margin: 15px;
+  margin: 15px auto;
+  background: url(files/nwo.gif)
 }
 
